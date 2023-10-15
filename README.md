@@ -27,7 +27,7 @@ If you want to perform data clustering yourself, you need to install [cuml](http
 
 
 ### Step 2: Pre-training and additional fine-tuning.
-
+Our model is available at https://huggingface.co/zhk/G-SPEED.
 
 ### Step 3: Inference and evaluation.
 
