@@ -5,7 +5,7 @@ The official repository of paper "G-SPEED: General SParse Efficient Editing MoDe
 
 ## G-SPEED Training and Evaluation
 
-### Step 0: Download the dataset or collect if from scratch.
+### Step 0: Download the dataset or collect it from scratch.
 
 
 ### Step 1: Annotate editing actions using dynamic programming.
