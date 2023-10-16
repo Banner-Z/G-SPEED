@@ -4,8 +4,8 @@ The official repository of paper "G-SPEED: General SParse Efficient Editing MoDe
 ## Set up enviroment
 ### Clone this repository
 ```bash
-git clone https://github.com/kernelmachine/cbtm.git
-cd cbtm
+git clone https://github.com/Banner-Z/G-SPEED.git
+cd G-SPEED
 ```
 ### Create a conda env
 ```bash
