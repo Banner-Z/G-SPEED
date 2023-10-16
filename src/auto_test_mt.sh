@@ -11,14 +11,14 @@ TAGGING_FILE_LIST=() # a list of json files. You can find the details of tagging
 OUTPUT_PATH_LIST=()
 
 TASK_NAME_LIST=(jfleg iterater_fluency iterater_clarity iterater_coherence stsb_multi_mt turk asset wnc)
-INTENT_LIST=(clarity neutral fluency simplification)
+INTENT_LIST=(fluency clarity coherence paraphrasing simplification neutral)
 
-TASK_NUM_LIST=(2 2 0 0 0 3 3 1)
-SUM_TASKS=4;
+TASK_NUM_LIST=(0 0 1 2 3 4 4 5)
+SUM_TASKS=6;
 SPARSE_MODE=ffd
 SPARSE_ENCDEC=True
 GATE_TYPE=task_id
-HEAD_NUM=4
+HEAD_NUM=6
 SPARSE_LEVEL=sentence_level
 GATE_TEMPERATURE=0.7
 
