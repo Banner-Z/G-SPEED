@@ -24,7 +24,10 @@ If you want to perform data clustering yourself, you need to install [cuml](http
 ## G-SPEED Training and Evaluation
 
 ### Step 0: Download the dataset or collect it from scratch.
+Our dataste is available at https://huggingface.co/datasets/zhk/wiki-edits.
+Each piece of data includes three attributes: 'source', 'target', and 'intent'. There are a total of 506k pieces of data, including four intents: "Readability", "Neutralization", "Fluency", "Simplification".
 
+If you need to obtain new clustering data, you can collect data according to ./data_collector, and then cluster the data according to ./data_cluster.
 
 ### Step 1: Annotate editing actions using dynamic programming.
 
@@ -36,3 +39,4 @@ Our model is available at https://huggingface.co/zhk/G-SPEED.
 
 
 ## Citation
+Coming soon.
