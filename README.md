@@ -12,7 +12,7 @@ cd G-SPEED
 conda create -n gspeed
 conda activate gspeed
 ```
-Alternatively, we supply an `requirements.txt` file; which can be used to create a conda environment by `pip install -r requirements.txt`.
+Alternatively, we supply a `requirements.txt` file; which can be used to create a conda environment by `pip install -r requirements.txt`.
 
 The necessary environments for G-SPEED include: `torch, transformers, datasets, evaluate, and accelerate`. You can build an environment that includes these packages to get started quickly.
 
