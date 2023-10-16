@@ -115,7 +115,6 @@ do
 	python main.py \
 		--dataset_name ${TASK_NAME_LIST[$i]} \
 		--prediction_file ${OUT_PATH}/final_results.jsonl \
-		--output_dir ${OUT_PATH}/metrics.json
 
     cd the_path2src
 
