@@ -27,6 +27,5 @@ accelerate launch --num_processes 4 --multi_gpu --main_process_port 21247 run_mt
   --learning_rate 5e-5 \
   --max_grad_norm 1 \
   --is_additional_finetune True \
-  --copy_ids 2 0 0 3 1 \
+  --copy_ids 2 0 0 3 1 \  # This means copying an expert from the pre-trained model to the new expert as initialization.
   --is_freeze True \
-
