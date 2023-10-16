@@ -53,10 +53,26 @@ python convert_data2json.py \
 ```
 
 ### Step 2: Pre-training and additional fine-tuning.
-Our model is available at https://huggingface.co/zhk/G-SPEED.
+Our model is available at https://huggingface.co/zhk/G-SPEED. It has six experts: fluency, clarity, coherence, paraphrasing, simplification, neutralization (these six experts correspond to task num from 0 to 5, which will be used during inference).
+
+Here is an example with pre-training and additional fine-tuning:
+```
+cd src
+bash train_mt.sh
+bash addi_finetune.sh
+```
+You need to modify some parameters in the bash files, such as the training set path.
 
 ### Step 3: Inference and evaluation.
-
-
+In the inference phase, you need to generate a `tagging.json` file based on source and target like step 1 (you can also directly use source and source to generate a file full of 'keep' operations). Then use this file as input and make predictions according to `test_mt.sh`.
+```
+cd src
+bash test_mt.sh
+```
+You need to refer to EditEval first to evaluate the results. In addition, we write a shell file that predicts and evaluates multiple data sets simultaneously:
+```
+cd src
+bash auto_test_mt.sh
+```
 ## Citation
 Coming soon.
