@@ -27,7 +27,7 @@ If you want to perform data clustering yourself, you need to install [cuml](http
 Our dataste is available at https://huggingface.co/datasets/zhk/wiki-edits.
 Each piece of data includes three attributes: 'source', 'target', and 'intent'. There are a total of 506k pieces of data, including four intents: "Readability", "Neutralization", "Fluency", "Simplification".
 
-If you need to obtain new clustering data, you can collect wikipedia editing history according to [this](./data_collector/README.md), and then cluster the data according to [this](./data_cluster/README.md).
+If you need to obtain new clustering data, you can collect wikipedia editing history according to [this](./wiki_collector/README.md), and then cluster the data according to [this](./data_cluster/README.md).
 
 ### Step 1: Annotate editing actions using dynamic programming.
 We use dynamic programming to obtain the minimum editing distance to label the editing action for each <souce, target> pair. Here is a demo:
