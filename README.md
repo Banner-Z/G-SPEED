@@ -1,6 +1,6 @@
 
 # G-SPEED
-The official repository of paper "G-SPEED: General SParse Efficient Editing MoDel" (Findings of EMNLP-2023). [pdf](https://arxiv.org/abs/2310.10480)
+The official repository of paper [G-SPEED: General SParse Efficient Editing MoDel](https://arxiv.org/abs/2310.10480) (Findings of EMNLP-2023).
 
 ![img](./gspeed.png)
 
