@@ -1,6 +1,6 @@
 
 # G-SPEED
-The official repository of paper "G-SPEED: General SParse Efficient Editing MoDel".
+The official repository of paper "G-SPEED: General SParse Efficient Editing MoDel" (Findings of EMNLP-2023). [pdf](https://arxiv.org/abs/2310.10480)
 
 ![img](./gspeed.png)
 
@@ -75,4 +75,11 @@ cd src
 bash auto_test_mt.sh
 ```
 ## Citation
-Coming soon.
+```
+@article{zhang2023g,
+  title={G-SPEED: General SParse Efficient Editing MoDel},
+  author={Zhang, Haoke and Wang, Yue and Li, Juntao and Zhou, Xiabing and Zhang, Min},
+  journal={arXiv preprint arXiv:2310.10480},
+  year={2023}
+}
+```
